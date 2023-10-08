@@ -23,7 +23,7 @@ public class DataBaseHandler extends SQLiteOpenHelper {
                                             + TASK + "TEXT, " + STATUS + " INTEGER)";
     private SQLiteDatabase db;
 
-    private DataBaseHandler(Context context){
+    public DataBaseHandler(Context context){
         super(context, NAME, null, VERSION);
     }
 
