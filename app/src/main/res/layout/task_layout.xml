@@ -21,7 +21,7 @@
             android:paddingStart="8dp"
             android:buttonTint="@android:color/holo_blue_dark"
             android:checked="true"/>
-        
+
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>
