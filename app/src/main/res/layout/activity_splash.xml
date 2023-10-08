@@ -8,6 +8,6 @@
         android:layout_width="500dp"
         android:layout_height="500dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/Icon"
+        android:src="@drawable/icon"/>
 
 </RelativeLayout>
