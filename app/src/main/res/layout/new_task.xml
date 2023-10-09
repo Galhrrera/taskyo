@@ -17,7 +17,7 @@
         android:layout_below="@id/newTaskText"
         android:layout_alignParentEnd="true"
         android:textSize="16sp"
-        android:text="Save"
+        android:text="Guadar"
         android:textAllCaps="false"
         android:background="@android:color/holo_blue_dark"
         android:textColor="@android:color/darker_gray"/>

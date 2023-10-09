@@ -12,7 +12,6 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
@@ -54,12 +53,10 @@ public class AddNewTask extends BottomSheetDialogFragment {
         super.onViewCreated(view, savedInstanceState);
 
         newTaskText = Objects.requireNonNull((getView()).findViewById(R.id.newTaskText));
-        //newTaskText = getView().findViewById(R.id.newTaskText);
         newTaskSaveBtn = getView().findViewById(R.id.newTaskBtn);
 
         boolean isUpdate = false;
         final Bundle bundle = getArguments();
-        //System.out.println(bundle);
         if (bundle != null){
             isUpdate = true;
             String task = bundle.getString("task");
