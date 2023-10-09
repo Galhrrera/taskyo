@@ -1,6 +1,7 @@
 package com.example.taskyo;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -43,16 +44,17 @@ public class MainActivity extends AppCompatActivity implements DialogCloseListen
 
         fab = findViewById(R.id.fab);
 
+        ItemTouchHelper itemTouchHelper =
+                new ItemTouchHelper(new RecyclerItemTouchHelper(tasksAdapter));
+
+        itemTouchHelper.attachToRecyclerView(taskRecyclerView);
+
         taskList = db.getAllTasks();
         Collections.reverse(taskList);
         tasksAdapter.setTasks(taskList);
 
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                AddNewTask.newInstance().show(getSupportFragmentManager(), AddNewTask.TAG);
-            }
-        });
+        fab.setOnClickListener(v ->
+                AddNewTask.newInstance().show(getSupportFragmentManager(), AddNewTask.TAG));
     }
 
     @Override
