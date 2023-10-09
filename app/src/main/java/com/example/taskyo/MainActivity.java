@@ -54,12 +54,7 @@ public class MainActivity extends AppCompatActivity implements DialogCloseListen
 
         tasksAdapter.setTasks(taskList);
 
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                AddNewTask.newInstance().show(getSupportFragmentManager(), AddNewTask.TAG);
-            }
-        });
+        fab.setOnClickListener(v -> AddNewTask.newInstance().show(getSupportFragmentManager(), AddNewTask.TAG));
         //fab.setOnClickListener(v ->
         //        AddNewTask.newInstance().show(getSupportFragmentManager(), AddNewTask.TAG));
     }
