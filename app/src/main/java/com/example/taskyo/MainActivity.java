@@ -6,8 +6,10 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 import com.example.taskyo.adapter.ToDoAdapter;
 import com.example.taskyo.model.ToDoModel;
@@ -57,6 +59,21 @@ public class MainActivity extends AppCompatActivity implements DialogCloseListen
         fab.setOnClickListener(v -> AddNewTask.newInstance().show(getSupportFragmentManager(), AddNewTask.TAG));
         //fab.setOnClickListener(v ->
         //        AddNewTask.newInstance().show(getSupportFragmentManager(), AddNewTask.TAG));
+
+        // Obtén una referencia al botón "Créditos"
+        Button creditosBtn = findViewById(R.id.creditosBtn);
+
+        // Configura un OnClickListener para el botón "Créditos"
+        creditosBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Crea un Intent para iniciar la actividad CreditosActivity
+                Intent intent = new Intent(MainActivity.this,
+                        CreditosActivity.class);
+                // Inicia la actividad de créditos
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
