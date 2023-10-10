@@ -1,4 +1,4 @@
-package com.example.taskyo.utils;
+package co.upb.taskyo.utils;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.example.taskyo.model.ToDoModel;
+import co.upb.taskyo.model.ToDoModel;
 
 import java.util.ArrayList;
 import java.util.List;

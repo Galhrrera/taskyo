@@ -1,4 +1,4 @@
-package com.example.taskyo.adapter;
+package co.upb.taskyo.adapter;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -7,11 +7,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
 import androidx.recyclerview.widget.RecyclerView;
-import com.example.taskyo.AddNewTask;
-import com.example.taskyo.MainActivity;
+import co.upb.taskyo.AddNewTask;
+import co.upb.taskyo.MainActivity;
 import com.example.taskyo.R;
-import com.example.taskyo.model.ToDoModel;
-import com.example.taskyo.utils.DataBaseHandler;
+import co.upb.taskyo.model.ToDoModel;
+import co.upb.taskyo.utils.DataBaseHandler;
 
 import java.util.List;
 

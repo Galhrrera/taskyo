@@ -1,4 +1,4 @@
-package com.example.taskyo;
+package co.upb.taskyo;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -11,7 +11,9 @@ import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.taskyo.adapter.ToDoAdapter;
+import com.example.taskyo.R;
+
+import co.upb.taskyo.adapter.ToDoAdapter;
 
 public class RecyclerItemTouchHelper extends ItemTouchHelper.SimpleCallback {
 

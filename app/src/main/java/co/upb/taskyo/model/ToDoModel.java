@@ -1,4 +1,4 @@
-package com.example.taskyo.model;
+package co.upb.taskyo.model;
 
 public class ToDoModel {
     private int id, status;

@@ -1,4 +1,4 @@
-package com.example.taskyo;
+package co.upb.taskyo;
 
 import android.app.Activity;
 import android.content.DialogInterface;
@@ -16,8 +16,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-import com.example.taskyo.model.ToDoModel;
-import com.example.taskyo.utils.DataBaseHandler;
+import com.example.taskyo.R;
+
+import co.upb.taskyo.model.ToDoModel;
+import co.upb.taskyo.utils.DataBaseHandler;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
 import java.util.Objects;

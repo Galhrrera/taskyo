@@ -1,4 +1,4 @@
-package com.example.taskyo;
+package co.upb.taskyo;
 
 import android.content.DialogInterface;
 

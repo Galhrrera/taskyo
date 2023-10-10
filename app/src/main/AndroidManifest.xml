@@ -13,13 +13,13 @@
         android:theme="@style/Theme.Taskyo"
         tools:targetApi="34">
         <activity
-            android:name=".Ayuda"
+            android:name="co.upb.taskyo.Ayuda"
             android:exported="false" />
         <activity
-            android:name=".CreditosActivity"
+            android:name="co.upb.taskyo.CreditosActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name="co.upb.taskyo.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,7 +27,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name="co.upb.taskyo.MainActivity" />
     </application>
 
 </manifest>

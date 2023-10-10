@@ -1,4 +1,4 @@
-package com.example.taskyo;
+package co.upb.taskyo;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.ItemTouchHelper;
@@ -9,9 +9,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import com.example.taskyo.adapter.ToDoAdapter;
-import com.example.taskyo.model.ToDoModel;
-import com.example.taskyo.utils.DataBaseHandler;
+
+import com.example.taskyo.R;
+
+import co.upb.taskyo.adapter.ToDoAdapter;
+import co.upb.taskyo.model.ToDoModel;
+import co.upb.taskyo.utils.DataBaseHandler;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.util.ArrayList;
 import java.util.Collections;
