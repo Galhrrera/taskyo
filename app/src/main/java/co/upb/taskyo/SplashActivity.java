@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.example.taskyo.R;
+import co.upb.taskyo.R;
 
 public class SplashActivity extends AppCompatActivity {
 

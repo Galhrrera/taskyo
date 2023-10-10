@@ -9,7 +9,7 @@ import android.widget.CheckBox;
 import androidx.recyclerview.widget.RecyclerView;
 import co.upb.taskyo.AddNewTask;
 import co.upb.taskyo.MainActivity;
-import com.example.taskyo.R;
+import co.upb.taskyo.R;
 import co.upb.taskyo.model.ToDoModel;
 import co.upb.taskyo.utils.DataBaseHandler;
 

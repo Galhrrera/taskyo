@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.taskyo.R;
+import co.upb.taskyo.R;
 
 public class Ayuda extends AppCompatActivity {
 

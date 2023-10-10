@@ -3,15 +3,15 @@ plugins {
 }
 
 android {
-    namespace = "com.example.taskyo"
+    namespace = "co.upb.taskyo"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.taskyo"
+        applicationId = "co.upb.taskyo"
         minSdk = 34
         targetSdk = 34
         versionCode = 1
-        versionName = "1.0"
+        versionName = "1.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

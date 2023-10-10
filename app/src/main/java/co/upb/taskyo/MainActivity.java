@@ -10,7 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.taskyo.R;
+import co.upb.taskyo.R;
 
 import co.upb.taskyo.adapter.ToDoAdapter;
 import co.upb.taskyo.model.ToDoModel;
