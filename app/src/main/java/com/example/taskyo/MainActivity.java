@@ -65,6 +65,16 @@ public class MainActivity extends AppCompatActivity implements DialogCloseListen
                 startActivity(intent);
             }
         });
+
+        Button tutorialBtn = findViewById(R.id.tutorialBtn);
+
+        tutorialBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Ayuda.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

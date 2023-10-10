@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Taskyo"
         tools:targetApi="34">
         <activity
+            android:name=".Ayuda"
+            android:exported="false" />
+        <activity
             android:name=".CreditosActivity"
             android:exported="false" />
         <activity
