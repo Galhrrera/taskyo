@@ -1,2 +1,2 @@
 # taskyo
-apps moviles
+Aplicación nativa Android
